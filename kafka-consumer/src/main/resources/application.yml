@@ -3,7 +3,7 @@ server:
 
 spring:
   kafka:
-    producer:
+    consumer:
       bootstrap-servers: localhost:9092
       group-id: rabin-group-1
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
